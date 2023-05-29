@@ -49,7 +49,7 @@ async function onRenderPage(e) {
     lightbox.refresh();
     autoScroll();
 
-    Notiflix.Notify.success(`Hooray! We found ${totalPicturs} images.`);
+    Notiflix.Notify.success(`We found ${totalPicturs} images.`);
   } catch (err) {
     console.log(err);
   }
