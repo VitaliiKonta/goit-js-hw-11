@@ -61,8 +61,8 @@ button {
   border-radius: 10px;
   cursor: pointer;
   color: #fff;
-  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(90deg, #03a9f4, #ffeb3b);
+  background: linear-gradient(-45deg, #03a9f4, #ffeb3b);
   background-size: 300%;
   animation: gradient 15s ease infinite;
 }
