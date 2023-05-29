@@ -9,12 +9,6 @@ const refs = {
   gallery: document.querySelector('.js-gallery'),
 };
 
-Notiflix.Report.info(
-  ' 🤟🏼 Hello my Friend!',
-  'This is my latest JS homework,enjoy looking at the photos 😜',
-  'Okay'
-);
-
 const pixabayApi = new PixabayAPI();
 
 let lightbox = new SimpleLightbox('.gallery__link', {

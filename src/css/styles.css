@@ -9,10 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   color: #212121;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background: linear-gradient(#1d2bf3, #0983f5, #f8fc06, #e6ff06);
+  background-size: 400%;
   background-attachment: fixed;
-  animation: gradient 15s ease infinite;
+  animation: gradient 20s ease infinite;
 }
 
 @keyframes gradient {
