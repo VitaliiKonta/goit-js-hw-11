@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   color: #212121;
-  background: linear-gradient(#1d2bf3, #0983f5, #f8fc06, #e6ff06);
+  background: linear-gradient(#1d2bf3, #0983f5, #f8fc06, #e6fd16);
   background-size: 400%;
   background-attachment: fixed;
   animation: gradient 20s ease infinite;
@@ -83,7 +83,7 @@ button:hover {
 }
 
 button:active {
-  background: linear-gradient(-32deg, #03a9f4, #ffeb3b, #0af129);
+  background: linear-gradient(-32deg, #03a9f4, #ffeb3b, #00f721);
 }
 
 .visually-hidden {
@@ -118,7 +118,7 @@ button:active {
 .header--no-transparency {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(5px);
 }
 
 #search-form {
